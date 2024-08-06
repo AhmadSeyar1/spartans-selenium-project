@@ -10,5 +10,6 @@ public class Activity1 {
 
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://facebook.com");
+        driver.quit();
     }
 }

@@ -10,6 +10,7 @@ public class HandleBrowser {
 
         // Navigate to a URL
         chromeDriver.get("https://google.com");
+        chromeDriver.quit();
 
     }
 }
