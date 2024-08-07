@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class CrossBrowsingHandling {
     public static void main(String[] args) {
 
+        //Activity is find a way to ask user where to run.
         String browserType = "edge";
 
         WebDriver driver;
