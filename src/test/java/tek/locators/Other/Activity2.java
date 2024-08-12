@@ -20,5 +20,6 @@ public class Activity2 {
         Thread.sleep(2000);
         driver.findElement(By.partialLinkText("TEK SCHOOL Modern")).click();
         Thread.sleep(2000);
+        driver.quit();
     }
 }
